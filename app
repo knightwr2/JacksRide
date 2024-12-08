@@ -1,1 +1,15 @@
-//This is a test.
+import javafx.application.Application;
+import javafx.stage.Stage;
+
+public class App extends Application {
+
+    @Override
+    public void start(Stage primaryStage) {
+        loginView login = new loginView(primaryStage);
+        login.showLogin();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
