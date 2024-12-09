@@ -6,7 +6,7 @@ public class driverView {
     private VBox layout;
 
     public driverView(){
-        Button viewRideRequestsButton = new Button("Request a Ride");
+        Button viewRideRequestsButton = new Button("Accept a Request");
         Button trackActiveRidesButton = new Button("View Active Rides");
         Button viewProfileButton = new Button("View Profile");
         Button viewEarningsButton = new Button("View Earnings");
