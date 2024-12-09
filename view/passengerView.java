@@ -13,18 +13,24 @@ public class passengerView {
 
         requestRideButton.setOnAction(e -> {
             // Placeholder
+             System.out.println("Redirecting to Ride Request Form...");
         });
         
         viewActiveRidesButton.setOnAction(e -> {
             // Placeholder
+            System.out.println("Displaying Active Rides...");
         });
 
         viewProfileButton.setOnAction(e -> {
             // Placeholder
+            System.out.println("Opening Profile...");
         });
 
         logoutButton.setOnAction(e -> {
             // Placeholder
+            System.out.println("Logging out...");
+            primaryStage.setScene(new Scene(new VBox(), 400, 400));
+            
         });
 
         layout = new VBox(20);
